@@ -906,5 +906,40 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
+  .homepage-footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10%;
+    font-size: .8em;
+}
+  .footer.left{
+    float:left;
+}
+.footer.left .logo{
+    width: 50px;
+    margin: 2px;
+    transition: .2s;
+}
+.footer.left .logo:hover{
+  width: 54px;
+  margin: 0px;
+}
+.footer.middle{
+    float:center;
+}
+.footer.right{
+    float:right;
+}
+.footer a{
+    color:inherit;
+    text-decoration-line: none;
+}
+.footer a:hover{
+    color: #b4b4b4
+}
 
 /*# sourceMappingURL=maps/style.css.map */
